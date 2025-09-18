@@ -150,8 +150,20 @@
            border-bottom: solid 2px white;
            border-radius: 6px;
       }
-      #fileInput {
-        background-color: red;
+      .custom-file-btn {
+        display: inline-block;
+        background-color: #007bff;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        transition: background 0.2s ease;
+      }
+
+      .custom-file-btn:hover {
+        background-color: #0056b3;
       }
   </style>
 </head>
@@ -160,7 +172,9 @@
     <h1>Visor tipo tablas para tareas desde Trello</h1>
     <div class="panel">
       <div class="row">
-        <input id="fileInput" type="file" accept=".json,application/json" />
+        <input id="fileInput" type="file" accept=".json,application/json" hidden />
+        <label for="fileInput" class="custom-file-btn">📂 Seleccionar archivo</label>
+
         <button id="loadBtn" disabled>Cargar archivo</button>
         <button id="parseTextareaBtn">Convertir archivo a tabla</button>
         <button id="downloadCsvBtn" class="hidden">Descargar CSV</button>
