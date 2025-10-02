@@ -45,8 +45,7 @@ Ejemplo de la tabla generada:
 
 ## 💻 Tecnologías utilizadas
 
-- **HTML5 + CSS3 + JS puro**  
-- Sin frameworks — simple y fácil de desplegar en **GitHub Pages**.
+- **HTML5 + CSS3 + JS puro**
 
 ---
 
