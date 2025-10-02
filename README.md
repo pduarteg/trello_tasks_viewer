@@ -51,4 +51,5 @@ Ejemplo de la tabla generada:
 
 ## 🌐 Despliegue
 
-El sitio está publicado en **GitHub Pages**, por lo que puedes accederlo en:  
+El sitio está publicado en **GitHub Pages**, por lo que puedes accederlo en: 
+[Trello-Tasks-Viewer](https://pduarteg.github.io/trello_tasks_viewer/)
